@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Kodchasan';
+  font-size: 22px;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+}
+
+.container {
+  width: 95%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.n-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.n-on a {
+  color: black;
+}
+
+.h-main {
+  background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+  width: 100%;
+  height: 800px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hh1 h1 {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 130px;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.hh1 h2 {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 130px;
+  text-align: left;
+  margin-left: 200px;
+}
+
+.hh1 h3 {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 130px;
+  text-align: left;
+  margin-left: 300px;
+}
+
+.hh3 h1 {
+  h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+  }
+}
+
+section {
+  display: flex;
+}
+
+.hh3 {
+  padding: 50px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 15px;
+  padding: 50px;
+}
+
+.on button {
+  background-color: #FF9D2D;
+  width: 180px;
+  height: 60px;
+  border: 0;
+  color: white;
+  font-size: 18px;
+}
+
+.chap img {
+  width: 100%;
+}
+
+.s-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 50px;
+  align-items: center;
+}
+
+.s-main2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 50px;
+  align-items: center;
+  gap: 20px;
+}
+
+.chap2 button {
+  background-color: #FF9D2D;
+  width: 180px;
+  height: 60px;
+  border: 0;
+  color: white;
+  font-size: 18px;
+
+}
+
+.a-chap {
+  background: #E58211;
+
+  padding: 40px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.a-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.sayt {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: #E58211;
+}
+
+
+
+.box {
+  border-radius: 8px;
+  border: none;
+  background: url(https://static.vecteezy.com/system/resources/thumbnails/013/743/930/small/sun-or-brightness-icon-png.png) no-repeat center center/cover;
+  width: 40px;
+  height: 40px;
+
+
+}
+
+.box-2 {
+  width: 40px;
+  height: 40px;
+  background: url(https://static.vecteezy.com/system/resources/previews/001/189/147/non_2x/moon-crescent-png.png) no-repeat center center/cover;
+}
+
+footer {
+  margin-top: 100px;
+  width: 100%;
+  height: max-content;
+  background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+}
+
+.f-left img {
+  background: black;
+}
+
+.f-main {
+  height: max-content;
+  padding: 40px 0;
+  justify-content: space-between;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
